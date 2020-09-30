@@ -6,7 +6,7 @@ function jumpingOnClouds(clouds) {
     let playerPosition = 0
 
     while (playerPosition < clouds.length - 1) {
-        if (playerPosition + 2 === clouds.length || clouds[[playerPosition + 2] === 1]) {
+        if ((playerPosition + 2 === clouds.length) || (clouds[playerPosition + 2] === 1)) {
             playerPosition++
             jumps++
         } else {
