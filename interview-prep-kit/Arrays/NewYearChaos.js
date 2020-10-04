@@ -50,7 +50,7 @@ function minimumBribes(q) {
     for (let current_pos = 0; current_pos < q.length; current_pos++) {
         //Getting original position starting at 0, so 1 at q[0] will equal 0
         const original_pos = q[current_pos] - 1
-        // diff = ho wmaany positions a person has moved. If 1 at q[0], 0-0=0 positions movied,
+        // diff = ho wmaany positions a person has moved. If 1 at q[0], 0-0=0 positions moved,
         // if 2 at q[0] 1-0=1 position moved.
         const diff = original_pos - current_pos
 
